@@ -4,4 +4,6 @@ main:
     url: https://sekyushin.github.io/
   - title: "About"
     url: /about/
+  - title: "Categories"
+    url: /categories/
   
