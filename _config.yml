@@ -24,7 +24,7 @@ description              : "심심하면 공부하자"
 url                      : "sekyushin.github.io"# the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
-teaser                   : ![]({{ site.url }}{{ site.baseurl }}/assets/images/stand.jpg    ) # path of fallback teaser image, e.g. "/assets/images/500x300.png"
+teaser                   : "/assets/images/stand.jpg)" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
@@ -89,7 +89,7 @@ facebook:
   username               :
   app_id                 :
   publisher              :
-og_image                 : ![]({{ site.url }}{{ site.baseurl }}/assets/images/stand.jpg ) # Open Graph/Twitter default site image
+og_image                 : "/assets/images/stand.jpg" # Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
@@ -108,7 +108,7 @@ analytics:
 # Site Author
 author:
   name             : "Shin Sekyu"
-  avatar           : ![]({{ site.url }}{{ site.baseurl }}/assets/images/stand.jpg ) # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/stand.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "공부 중입니다."
   location         : "South Korea"
   email            :
