@@ -1,9 +1,11 @@
 # main links
 main:
-  - title: "블로그 방문하기"
-    url: https://sekyushin.github.io/
-  - title: "About"
-    url: /about/
+  - title: "Algoritm Study"
+    url: /categories/algorithm
+  - title: "Cpp Study"
+    url: /categories/cpp
   - title: "Categories"
     url: /categories/
+  - title: "About"
+    url: /about/
   
