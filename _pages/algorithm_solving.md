@@ -1,7 +1,9 @@
 ---
 
 title: "Algorithm Solving"  
-layout: category permalink: /categories/algorithm_solving author_profile: true
+layout: category
+permalink: /categories/algorithm_solving 
+author_profile: true
 
 taxonomy: algorithm_solving
 ---
