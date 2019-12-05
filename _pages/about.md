@@ -13,8 +13,8 @@ layout: single
 
 ## github.io 파일들 간략 설명
 
-_config : 사이트 설정
-_data folder : navigation.yml 이 있는 폴더로 오른쪽 상단의 게시글
-_posts : 기본적인 포스트 글을 올리는 곳(시간 ㅇ)
-_pages : 네비게이션과 같이 쓰일 수 있으며, 단독으로도 존재 (시간 x)
+_config : 사이트 설정  
+_data folder : navigation.yml 이 있는 폴더로 오른쪽 상단의 게시글  
+_posts : 기본적인 포스트 글을 올리는 곳(시간 ㅇ)  
+_pages : 네비게이션과 같이 쓰일 수 있으며, 단독으로도 존재 (시간 x)  
 
