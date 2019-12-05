@@ -1,6 +1,8 @@
 ---
-title: "title"
-layout: categories single
-permalink: /link
-author_profile: true
+title: #"title"
+layout: #categories single category
+permalink: #/categories/cpp
+author_profile: #true
+taxonomy: #cpp
 ---
+

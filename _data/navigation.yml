@@ -1,9 +1,11 @@
 # main links
 main:
   - title: "Algoritm Study"
-    url: /categories/algorithm
+    url: /categories/algorithm_study
+  - title: "Algoritm Solving"
+    url: /categories/algorithm_solving
   - title: "Cpp Study"
-    url: /categories/cpp
+    url: /categories/cpp_study
   - title: "Categories"
     url: /categories/
   - title: "About"

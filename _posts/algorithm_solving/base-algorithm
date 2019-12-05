@@ -7,9 +7,10 @@ toc_sticky: true
 toc_label: ""
 
 categories:
-  - algorithm_study
+  - algorithm_solving
 tags:
-  - study
+  - solving
+  - cpp
 
 last_modified_at: 2019-12-04
 ---
