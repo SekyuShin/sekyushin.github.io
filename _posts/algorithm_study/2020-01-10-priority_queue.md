@@ -100,3 +100,43 @@ int main(){
 결과  
 
 ![priority_queue_result](https://user-images.githubusercontent.com/42687768/72158533-cdc1e400-33fd-11ea-8579-8a4e89224b5e.JPG)  
+
+추가 구조체를 사용한 우선순위 큐 예제
+
+```cpp
+#include<cstdio>
+#include<vector>
+#include<queue>
+
+using namespace std;
+
+struct dayScore {
+	int restDay;
+	int score;
+	bool operator()(dayScore &a, dayScore &b) {
+		return a.score < b.score;
+	}
+};
+
+int main() {
+	priority_queue<dayScore, vector<dayScore>, dayScore> pq;
+	dayScore tempScore;
+
+	for (int i = 0; i < 7; i++) {
+		scanf("%d %d", &tempScore.restDay, &tempScore.score);
+		pq.push(tempScore);
+	}
+	printf("size = %d\n", pq.size());
+	while (!pq.empty()) {
+		printf("%d %d\n", pq.top().restDay, pq.top().score);
+		pq.pop();
+	}
+
+	return 0;
+}
+
+
+```
+
+결과  
+![struct_result](https://user-images.githubusercontent.com/42687768/76700778-3b400880-66fe-11ea-8c7d-54d3cc004cc7.JPG)
