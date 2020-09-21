@@ -1,24 +1,24 @@
 # main links
 main:
-  - title: "Algoritm Study"
-    url: /categories/algorithm_study
-  - title: "Algoritm Solving"
-    url: /categories/algorithm_solving
-  - title: "Cpp Study"
-    url: /categories/cpp_study
   - title: "Categories"
     url: /categories/
-  - title: "About"
+  - title: "Tag"
+    url: /tags/
+  - title: "about"
     url: /about/
 
 docs:
-  - title: Getting Started
+  - title: Algoritm
     children:
-      - title: "Quick-Start Guide"
+      - title: "Algoritm Study"
         url: /categories/algorithm_study
-      - title: "Structure"
-        url: /docs/structure/
-      - title: "Installation"
-        url: /docs/installation/
-      - title: "Upgrading"
-        url: /docs/upgrading/
+      - title: "Algoritm Solving"
+        url: /categories/algorithm_solving
+  - title: Programming Language
+    children:
+      - title: "Cpp Study"
+        url: /categories/cpp_study
+  - title: Blog
+    children:
+      - title: "Blog"
+        url: /categories/blog
