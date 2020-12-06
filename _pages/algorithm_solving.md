@@ -3,7 +3,8 @@
 title: "Algorithm Solving"  
 layout: category
 permalink: /categories/algorithm_solving 
-author_profile: true
+sidebar:
+  nav: "docs"
 
 taxonomy: algorithm_solving
 ---

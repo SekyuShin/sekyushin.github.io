@@ -3,6 +3,7 @@ title: "공부한 자료들을 정리해 놓을 곳입니다."
 
 permalink: /about/
 layout: single
+author_profile: true
 ---
 
 ## sekyushin.github.io 블로그

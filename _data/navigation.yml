@@ -1,13 +1,24 @@
 # main links
 main:
-  - title: "Algoritm Study"
-    url: /categories/algorithm_study
-  - title: "Algoritm Solving"
-    url: /categories/algorithm_solving
-  - title: "Cpp Study"
-    url: /categories/cpp_study
   - title: "Categories"
     url: /categories/
-  - title: "About"
+  - title: "Tag"
+    url: /tags/
+  - title: "about"
     url: /about/
-  
+
+docs:
+  - title: Algoritm
+    children:
+      - title: "Algoritm Study"
+        url: /categories/algorithm_study
+      - title: "Algoritm Solving"
+        url: /categories/algorithm_solving
+  - title: Programming Language
+    children:
+      - title: "Cpp Study"
+        url: /categories/cpp_study
+  - title: Blog
+    children:
+      - title: "Blog"
+        url: /categories/blog

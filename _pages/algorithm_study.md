@@ -2,7 +2,8 @@
 title: "Algorithm study"
 layout: category
 permalink: /categories/algorithm_study
-author_profile: true
+sidebar:
+  nav: "docs"
 taxonomy: algorithm_study
 ---
 

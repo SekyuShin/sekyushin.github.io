@@ -2,7 +2,8 @@
 title: "CPP STUDY"
 layout: category
 permalink: /categories/cpp_study
-author_profile: true
+sidebar:
+  nav: "docs"
 taxonomy: cpp_study
 ---
 
