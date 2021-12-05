@@ -1,6 +1,6 @@
 ---
 
-title: "0.우선순위 큐 (priority_queue)"  
+title: "00_우선순위 큐 (priority_queue)"  
 excerpt: "STL"  
 toc: true  
 toc_sticky: true  
