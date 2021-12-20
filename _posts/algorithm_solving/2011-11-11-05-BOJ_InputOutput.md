@@ -617,3 +617,149 @@ int main() {
     printf((2 * i - 2 * j + 1)*(2 * i + 2 * j - 4 * n + 3)<0 ? "*" : " ");
     해석할까 하다가 굳이라는 생각이 들었다.
     나중에..
+
+
+	
+
+# 1. 문제풀이 [별 찍기 - 12] (2522) 
+Issue : <https://www.acmicpc.net/problem/2522>
+## 1) 문제 조건
+    - N (1 ≤ N ≤ 100)
+    - 예제보고 같게 출력
+```cpp
+  *
+ **
+***
+ **
+  *
+```
+
+    - 줄의 개수 : 2×N-1번째 줄까지
+# 2. 코드 (2522)
+```c
+#include<cstdio>
+int main() {
+	int n;
+	scanf("%d", &n);
+	for (int i = 0; i < 2*n-1; i++) {
+		for (int j = 0; j < n; j++) {	
+			if ((i<n && j > n - i - 2) || ((i>n-1) && j>i-n)) printf("*");
+			//i의 값이 n을 기준으로 조건을 달리해서 풀이 진행
+			else printf(" ");
+		}printf("\n");
+	}
+	return 0;
+}
+```
+
+
+
+# 1. 문제풀이 [별 찍기 - 9] (2446) 
+Issue : <https://www.acmicpc.net/problem/2522>
+## 1) 문제 조건
+    - N (1 ≤ N ≤ 100)
+    - 예제보고 같게 출력
+```cpp
+*********
+ *******
+  *****
+   ***
+    *
+   ***
+  *****
+ *******
+*********
+```
+
+    - 줄의 개수 : 2×N-1번째 줄까지
+# 2. 코드 (2446)
+```c
+#include<cstdio>
+int main() {
+	int n;
+	scanf("%d", &n);
+	for (int i = 0; i < 2*n-1; i++) {
+		for (int j = 0; j < 2*n-1; j++) {	
+			if ((i < n && (j > i - 1 && j < 2 * n - i - 1)) || ((i > n - 1) && (j > 2 * n - i - 3 && j < i + 1))) printf("*");
+			else if (j > n-1) continue;
+			else printf(" ");
+		}printf("\n");
+	}
+	return 0;
+}
+
+```
+
+# 3. 리뷰 (2446)
+
+	- 뭔가 점점 규칙을 대충 찾고 숫자 몇개를 바꾸어 때려 맞추는 기분이 든다..
+
+
+
+
+# 1. 문제풀이 [별 찍기 - 16] (10991) 
+Issue : <https://www.acmicpc.net/problem/10991>
+## 1) 문제 조건
+    - N (1 ≤ N ≤ 100)
+    - 예제보고 같게 출력
+```cpp
+   *
+  * *
+ * * *
+* * * *
+```
+
+    - 줄의 개수 : N
+# 2. 코드 (10991)
+```c
+#include<cstdio>
+int main() {
+	int n;
+	scanf("%d", &n);
+	for (int i = 0; i < n; i++) {
+		for (int j = 0; j < n+i; j++) {	
+			if (j > n - i - 2  && ((n%2 == 1 && i%2 == j%2) || (n%2 == 0 && i%2 != j%2))) printf("*");
+			else  printf(" ");
+		}printf("\n");
+	}
+	return 0;
+}
+
+```
+
+
+
+# 1. 문제풀이 [별 찍기 - 17] (10992) 
+Issue : <https://www.acmicpc.net/problem/10992>
+## 1) 문제 조건
+    - N (1 ≤ N ≤ 100)
+    - 예제보고 같게 출력
+```cpp
+   *
+  * *
+ *   *
+*******
+```
+
+    - 줄의 개수 : N
+# 2. 코드 (10992)
+```c
+#include<cstdio>
+int main() {
+	int n;
+	scanf("%d", &n);
+	for (int i = 0; i < n; i++) {
+		for (int j = 0; j < n+i; j++) {	
+			if (j == n - i - 1 || j==n+i-1 || i==n-1) printf("*");
+			else  printf(" ");
+		}printf("\n");
+	}
+	return 0;
+}
+
+```
+
+# 2. 리뷰 (10992)
+
+	- 드디어 별 문제 끝..
+	어렵지는 않았으나 규칙을 도추해 내는게 생각보다 성가신 작업이었다.
