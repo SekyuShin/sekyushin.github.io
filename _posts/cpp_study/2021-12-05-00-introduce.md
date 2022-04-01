@@ -1,0 +1,24 @@
+---
+title:  "00_cpp 자료실"
+excerpt: "공부한 cpp 내용을 올리는 곳 입니다."
+
+toc: true
+toc_sticky: true
+toc_label: ""
+
+categories:
+  - cpp_study
+tags:
+  - cpp
+  - study
+  - Programming Language
+
+last_modified_at: 2019-12-04
+---
+
+## cpp 공부
+
+공부한 내용을 정리해서 올릴 예정입니다.
+참고 사이트  
+  <https://modoocode.com/136>  
+  <https://kks227.blog.me/220775134486>
