@@ -17,7 +17,7 @@ last_modified_at: 2022-08-01
 
 ## 1차 Switch Bot
 
-<iframe width="560" height="315" src="https://youtube.com/shorts/oDKNFQpfKaI" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/tesjaCI5i2M" frameborder="0" allowfullscreen></iframe>
 
 - 아두이노로 제작한 Switch Bot과 스마트폰 앱의 블루투스 통신 동영상  
 
@@ -25,8 +25,9 @@ last_modified_at: 2022-08-01
 
 
 ## 2차 Switch Bot
-<iframe width="560" height="315" src="https://youtube.com/shorts/tesjaCI5i2M" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/tesjaCI5i2M" frameborder="0" allowfullscreen></iframe>
 
 - 하드웨어 케이스 및 기능 추가
+- 안드로이드 Setting 기능 및 리시버를 통한 자동 연결 기능 추가 예정
 
 프로젝트 기간 : 22.06 ~ 진행 중
